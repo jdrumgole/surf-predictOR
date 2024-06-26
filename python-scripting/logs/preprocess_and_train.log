@@ -1,0 +1,137 @@
+INFO:__main__:Database connection successful.
+ERROR:__main__:Error loading CSV data: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgre"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:__main__:Database connection successful.
+INFO:__main__:Data loaded from PostgreSQL successfully.
+ERROR:__main__:Error preprocessing data: [Errno 2] No such file or directory: 'models/feature_order.pkl'
+INFO:__main__:Database connection successful.
+INFO:__main__:Data loaded from PostgreSQL successfully.
+INFO:__main__:Model evaluation completed successfully.
+Accuracy: 0.6666666666666666
+              precision    recall  f1-score   support
+
+       False       1.00      0.67      0.80         3
+        True       0.00      0.00      0.00         0
+
+    accuracy                           0.67         3
+   macro avg       0.50      0.33      0.40         3
+weighted avg       1.00      0.67      0.80         3
+
+INFO:__main__:Database connection successful.
+INFO:__main__:Data loaded from PostgreSQL successfully.
+INFO:__main__:Model evaluation completed successfully.
+Accuracy: 0.6666666666666666
+              precision    recall  f1-score   support
+
+       False       1.00      0.67      0.80         3
+        True       0.00      0.00      0.00         0
+
+    accuracy                           0.67         3
+   macro avg       0.50      0.33      0.40         3
+weighted avg       1.00      0.67      0.80         3
+
+INFO:__main__:Database connection successful.
+INFO:__main__:Data loaded from PostgreSQL successfully.
+INFO:__main__:Model evaluation completed successfully.
+Accuracy: 0.6666666666666666
+              precision    recall  f1-score   support
+
+       False       1.00      0.67      0.80         3
+        True       0.00      0.00      0.00         0
+
+    accuracy                           0.67         3
+   macro avg       0.50      0.33      0.40         3
+weighted avg       1.00      0.67      0.80         3
+
+INFO:__main__:Database connection successful.
+INFO:__main__:Data loaded from PostgreSQL successfully.
+INFO:__main__:Model evaluation completed successfully.
+Accuracy: 0.6666666666666666
+              precision    recall  f1-score   support
+
+       False       1.00      0.67      0.80         3
+        True       0.00      0.00      0.00         0
+
+    accuracy                           0.67         3
+   macro avg       0.50      0.33      0.40         3
+weighted avg       1.00      0.67      0.80         3
+
+INFO:__main__:Database connection successful.
+INFO:__main__:Data loaded from PostgreSQL successfully.
+INFO:__main__:Model evaluation completed successfully.
+Accuracy: 0.6666666666666666
+              precision    recall  f1-score   support
+
+       False       1.00      0.67      0.80         3
+        True       0.00      0.00      0.00         0
+
+    accuracy                           0.67         3
+   macro avg       0.50      0.33      0.40         3
+weighted avg       1.00      0.67      0.80         3
+
+INFO:__main__:Database connection successful.
+INFO:__main__:Data loaded from PostgreSQL successfully.
+INFO:__main__:Model evaluation completed successfully.
+Accuracy: 0.25
+              precision    recall  f1-score   support
+
+       False       0.00      0.00      0.00         0
+        True       1.00      0.25      0.40         4
+
+    accuracy                           0.25         4
+   macro avg       0.50      0.12      0.20         4
+weighted avg       1.00      0.25      0.40         4
+
+INFO:__main__:Database connection successful.
+INFO:__main__:Data loaded from PostgreSQL successfully.
+INFO:__main__:Model evaluation completed successfully.
+Accuracy: 0.25
+              precision    recall  f1-score   support
+
+       False       0.00      0.00      0.00         0
+        True       1.00      0.25      0.40         4
+
+    accuracy                           0.25         4
+   macro avg       0.50      0.12      0.20         4
+weighted avg       1.00      0.25      0.40         4
+
+INFO:__main__:Database connection successful.
+INFO:__main__:Data loaded from PostgreSQL successfully.
+INFO:__main__:Model evaluation completed successfully.
+Accuracy: 0.5
+              precision    recall  f1-score   support
+
+       False       0.50      0.50      0.50         2
+        True       0.50      0.50      0.50         2
+
+    accuracy                           0.50         4
+   macro avg       0.50      0.50      0.50         4
+weighted avg       0.50      0.50      0.50         4
+
+INFO:__main__:Database connection successful.
+INFO:__main__:Data loaded from PostgreSQL successfully.
+INFO:__main__:Model evaluation completed successfully.
+Accuracy: 0.5
+              precision    recall  f1-score   support
+
+       False       0.50      0.50      0.50         2
+        True       0.50      0.50      0.50         2
+
+    accuracy                           0.50         4
+   macro avg       0.50      0.50      0.50         4
+weighted avg       0.50      0.50      0.50         4
+
+INFO:__main__:Database connection successful.
+INFO:__main__:Data loaded from PostgreSQL successfully.
+INFO:__main__:Model evaluation completed successfully.
+Accuracy: 0.5
+              precision    recall  f1-score   support
+
+       False       0.50      0.50      0.50         2
+        True       0.50      0.50      0.50         2
+
+    accuracy                           0.50         4
+   macro avg       0.50      0.50      0.50         4
+weighted avg       0.50      0.50      0.50         4
+

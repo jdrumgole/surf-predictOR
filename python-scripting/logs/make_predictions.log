@@ -1,0 +1,326 @@
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+ERROR:__main__:Error preprocessing upcoming event data: y contains previously unseen labels: 'John Doe'
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+INFO:__main__:Upcoming event data preprocessed successfully.
+ERROR:__main__:Error making prediction: boolean index did not match indexed array along dimension 0; dimension is 6 but corresponding boolean dimension is 1
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+INFO:__main__:Upcoming event data preprocessed successfully.
+ERROR:__main__:Error making prediction: boolean index did not match indexed array along dimension 0; dimension is 6 but corresponding boolean dimension is 1
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+INFO:__main__:Upcoming event data preprocessed successfully.
+ERROR:__main__:Error making prediction: boolean index did not match indexed array along dimension 0; dimension is 6 but corresponding boolean dimension is 1
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+INFO:__main__:Upcoming event data preprocessed successfully.
+ERROR:__main__:Error making prediction: boolean index did not match indexed array along dimension 0; dimension is 6 but corresponding boolean dimension is 1
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+INFO:__main__:Upcoming event data DataFrame:
+   location surfer_name  wave_height wave_type  score
+0  Pipeline    John Doe          2.5      reef    8.0
+INFO:__main__:Upcoming event data with computed features:
+   location surfer_name  wave_height wave_type  score  average_score  event_count
+0  Pipeline    John Doe          2.5      reef    8.0            7.5            5
+INFO:__main__:Upcoming event data with encoded features:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Upcoming event data in feature order:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Upcoming event data after normalization:
+[[0.         0.05783149 0.23017414 0.70710678 1.         1.47893752
+  2.        ]]
+ERROR:__main__:Error making prediction: boolean index did not match indexed array along dimension 0; dimension is 6 but corresponding boolean dimension is 1
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+INFO:__main__:Upcoming event data DataFrame:
+   location surfer_name  wave_height wave_type  score
+0  Pipeline    John Doe          2.5      reef    8.0
+INFO:__main__:Upcoming event data with computed features:
+   location surfer_name  wave_height wave_type  score  average_score  event_count
+0  Pipeline    John Doe          2.5      reef    8.0            7.5            5
+INFO:__main__:Upcoming event data with encoded features:
+   location  surfer_name  wave_height  wave_type  score  average_score  event_count
+0         1            2          2.5          1    8.0            7.5            5
+INFO:__main__:Upcoming event data in feature order:
+   location  surfer_name  wave_height  wave_type  score  average_score  event_count
+0         1            2          2.5          1    8.0            7.5            5
+INFO:__main__:Upcoming event data after normalization:
+[[0.         0.05783149 0.23017414 0.70710678 1.         1.47893752
+  2.        ]]
+INFO:__main__:Shape of upcoming_event_df before prediction: (1, 7)
+INFO:__main__:Prediction array: [False]
+ERROR:__main__:Error making prediction: boolean index did not match indexed array along dimension 0; dimension is 6 but corresponding boolean dimension is 1
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+INFO:__main__:Upcoming event data DataFrame:
+   location surfer_name  wave_height wave_type  score
+0  Pipeline    John Doe          2.5      reef    8.0
+INFO:__main__:Upcoming event data with computed features:
+   location surfer_name  wave_height wave_type  score  average_score  event_count
+0  Pipeline    John Doe          2.5      reef    8.0            7.5            5
+INFO:__main__:Upcoming event data with encoded features:
+   location  surfer_name  wave_height  wave_type  score  average_score  event_count
+0         1            2          2.5          1    8.0            7.5            5
+INFO:__main__:Upcoming event data in feature order:
+   location  surfer_name  wave_height  wave_type  score  average_score  event_count
+0         1            2          2.5          1    8.0            7.5            5
+INFO:__main__:Upcoming event data after normalization:
+[[0.         0.05783149 0.23017414 0.70710678 1.         1.47893752
+  2.        ]]
+INFO:__main__:Shape of upcoming_event_df_normalized before prediction: (1, 7)
+INFO:__main__:Prediction array: [False]
+ERROR:__main__:Error making prediction: boolean index did not match indexed array along dimension 0; dimension is 6 but corresponding boolean dimension is 1
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+INFO:__main__:Upcoming event data DataFrame:
+   location surfer_name  wave_height wave_type  score
+0  Pipeline    John Doe          2.5      reef    8.0
+INFO:__main__:Upcoming event data with computed features:
+   location surfer_name  wave_height wave_type  score  average_score  event_count
+0  Pipeline    John Doe          2.5      reef    8.0            7.5            5
+INFO:__main__:Upcoming event data with encoded features:
+   location  surfer_name  wave_height  wave_type  score  average_score  event_count
+0         1            2          2.5          1    8.0            7.5            5
+INFO:__main__:Feature order: ['location', 'surfer_name', 'wave_height', 'wave_type', 'score', 'average_score', 'event_count']
+INFO:__main__:Upcoming event data in feature order:
+   location  surfer_name  wave_height  wave_type  score  average_score  event_count
+0         1            2          2.5          1    8.0            7.5            5
+INFO:__main__:Upcoming event data after normalization:
+[[0.         0.05783149 0.23017414 0.70710678 1.         1.47893752
+  2.        ]]
+INFO:__main__:Shape of upcoming_event_df_normalized before prediction: (1, 7)
+INFO:__main__:Prediction array: [False]
+ERROR:__main__:Error making prediction: boolean index did not match indexed array along dimension 0; dimension is 6 but corresponding boolean dimension is 1
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+INFO:__main__:Upcoming event data DataFrame:
+   location surfer_name  wave_height wave_type  score
+0  Pipeline    John Doe          2.5      reef    8.0
+INFO:__main__:Upcoming event data with computed features:
+   location surfer_name  wave_height wave_type  score  average_score  event_count
+0  Pipeline    John Doe          2.5      reef    8.0            7.5            5
+INFO:__main__:Upcoming event data with encoded features:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Feature order: ['location', 'surfer_name', 'wave_height', 'wave_type', 'score', 'average_score', 'event_count']
+INFO:__main__:Upcoming event data in feature order:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Upcoming event data after normalization:
+[[0.         0.05783149 0.23017414 0.70710678 1.         1.47893752
+  2.        ]]
+INFO:__main__:Prediction array: [False]
+ERROR:__main__:Error making prediction: boolean index did not match indexed array along dimension 0; dimension is 6 but corresponding boolean dimension is 1
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+INFO:__main__:Upcoming event data DataFrame:
+   location surfer_name  wave_height wave_type  score
+0  Pipeline    John Doe          2.5      reef    8.0
+INFO:__main__:Upcoming event data with computed features:
+   location surfer_name  wave_height wave_type  score  average_score  event_count
+0  Pipeline    John Doe          2.5      reef    8.0            7.5            5
+INFO:__main__:Upcoming event data with encoded features:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Feature order: ['location', 'surfer_name', 'wave_height', 'wave_type', 'score', 'average_score', 'event_count']
+INFO:__main__:Upcoming event data in feature order:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Upcoming event data after normalization:
+[[ 0.          0.29012943 -1.15470054  0.74535599 -0.0615624  -1.15117479
+   0.8660254 ]]
+INFO:__main__:Prediction array: [False]
+ERROR:__main__:Error making prediction: boolean index did not match indexed array along dimension 0; dimension is 4 but corresponding boolean dimension is 1
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+INFO:__main__:Upcoming event data DataFrame:
+   location surfer_name  wave_height wave_type  score
+0  Pipeline    John Doe          2.5      reef    8.0
+INFO:__main__:Upcoming event data with computed features:
+   location surfer_name  wave_height wave_type  score  average_score  event_count
+0  Pipeline    John Doe          2.5      reef    8.0            7.5            5
+INFO:__main__:Upcoming event data with encoded features:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Feature order: ['location', 'surfer_name', 'wave_height', 'wave_type', 'score', 'average_score', 'event_count']
+INFO:__main__:Upcoming event data in feature order:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Upcoming event data after normalization:
+[[ 0.          0.29012943 -1.15470054  0.74535599 -0.0615624  -1.15117479
+   0.8660254 ]]
+INFO:__main__:Prediction array: [False]
+ERROR:__main__:Error making prediction: boolean index did not match indexed array along dimension 0; dimension is 4 but corresponding boolean dimension is 1
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+INFO:__main__:Upcoming event data DataFrame:
+   location surfer_name  wave_height wave_type  score
+0  Pipeline    John Doe          2.5      reef    8.0
+INFO:__main__:Upcoming event data with computed features:
+   location surfer_name  wave_height wave_type  score  average_score  event_count
+0  Pipeline    John Doe          2.5      reef    8.0            7.5            5
+INFO:__main__:Upcoming event data with encoded features:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Feature order: ['location', 'surfer_name', 'wave_height', 'wave_type', 'score', 'average_score', 'event_count']
+INFO:__main__:Upcoming event data in feature order:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Upcoming event data after normalization:
+[[ 0.          0.29012943 -1.15470054  0.74535599 -0.0615624  -1.15117479
+   0.8660254 ]]
+INFO:__main__:Prediction array: [False]
+INFO:__main__:Prediction made successfully. Predicted winner: Unknown Surfer
+ERROR:__main__:Error storing prediction in PostgreSQL: (psycopg2.errors.UndefinedTable) relation "predictions" does not exist
+LINE 1: INSERT INTO predictions (event_id, predicted_winner) VALUES ...
+                    ^
+
+[SQL: INSERT INTO predictions (event_id, predicted_winner) VALUES (%(event_id)s, %(predicted_winner)s)]
+[parameters: {'event_id': 1, 'predicted_winner': 'Unknown Surfer'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+INFO:__main__:Upcoming event data DataFrame:
+   location surfer_name  wave_height wave_type  score
+0  Pipeline    John Doe          2.5      reef    8.0
+INFO:__main__:Upcoming event data with computed features:
+   location surfer_name  wave_height wave_type  score  average_score  event_count
+0  Pipeline    John Doe          2.5      reef    8.0            7.5            5
+INFO:__main__:Upcoming event data with encoded features:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Feature order: ['location', 'surfer_name', 'wave_height', 'wave_type', 'score', 'average_score', 'event_count']
+INFO:__main__:Upcoming event data in feature order:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Upcoming event data after normalization:
+[[ 0.17149859  0.32207831 -1.10782342  0.8660254  -0.05601853 -1.13356112
+   0.8660254 ]]
+INFO:__main__:Prediction array: [ True]
+INFO:__main__:Prediction made successfully. Predicted winner: Unknown Surfer
+INFO:__main__:Prediction stored in PostgreSQL successfully.
+INFO:__main__:Predictions table content:
+[(1, 1, 'Unknown Surfer')]
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+INFO:__main__:Upcoming event data DataFrame:
+   location surfer_name  wave_height wave_type  score
+0  Pipeline    John Doe          2.5      reef    8.0
+INFO:__main__:Upcoming event data with computed features:
+   location surfer_name  wave_height wave_type  score  average_score  event_count
+0  Pipeline    John Doe          2.5      reef    8.0            7.5            5
+INFO:__main__:Upcoming event data with encoded features:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Feature order: ['location', 'surfer_name', 'wave_height', 'wave_type', 'score', 'average_score', 'event_count']
+INFO:__main__:Upcoming event data in feature order:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Upcoming event data after normalization:
+[[ 0.17149859  0.32207831 -1.10782342  0.8660254  -0.05601853 -1.13356112
+   0.8660254 ]]
+INFO:__main__:Prediction array: [ True]
+INFO:__main__:Prediction made successfully. Predicted winner: Unknown Surfer
+INFO:__main__:Prediction stored in PostgreSQL successfully.
+INFO:__main__:Predictions table content:
+[(1, 1, 'Unknown Surfer'), (2, 1, 'Unknown Surfer')]
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+INFO:__main__:Upcoming event data DataFrame:
+   location surfer_name  wave_height wave_type  score
+0  Pipeline    John Doe          2.5      reef    8.0
+INFO:__main__:Upcoming event data with computed features:
+   location surfer_name  wave_height wave_type  score  average_score  event_count
+0  Pipeline    John Doe          2.5      reef    8.0            7.5            5
+INFO:__main__:Upcoming event data with encoded features:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Feature order: ['location', 'surfer_name', 'wave_height', 'wave_type', 'score', 'average_score', 'event_count']
+INFO:__main__:Upcoming event data in feature order:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Upcoming event data after normalization:
+[[ 0.17149859  0.32207831 -1.10782342  0.8660254  -0.05601853 -1.13356112
+   0.8660254 ]]
+INFO:__main__:Prediction array: [ True]
+INFO:__main__:Prediction made successfully. Predicted winner: Unknown Surfer
+INFO:__main__:Prediction stored in PostgreSQL successfully.
+INFO:__main__:Predictions table content:
+[(1, 1, 'Unknown Surfer'), (2, 1, 'Unknown Surfer'), (3, 1, 'Unknown Surfer')]
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+INFO:__main__:Upcoming event data DataFrame:
+   location surfer_name  wave_height wave_type  score
+0  Pipeline    John Doe          2.5      reef    8.0
+INFO:__main__:Upcoming event data with computed features:
+   location surfer_name  wave_height wave_type  score  average_score  event_count
+0  Pipeline    John Doe          2.5      reef    8.0            7.5            5
+INFO:__main__:Upcoming event data with encoded features:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Feature order: ['location', 'surfer_name', 'wave_height', 'wave_type', 'score', 'average_score', 'event_count']
+INFO:__main__:Upcoming event data in feature order:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Upcoming event data after normalization:
+[[ 0.17149859  0.32207831 -1.10782342  0.8660254  -0.05601853 -1.13356112
+   0.8660254 ]]
+INFO:__main__:Prediction array: [ True]
+INFO:__main__:Classes in surfer_name_encoder: ['Alice Johnson' 'Jane Smith' 'John Doe' 'Mark Lee']
+INFO:__main__:Prediction made successfully. Predicted winner: Unknown Surfer
+INFO:__main__:Prediction stored in PostgreSQL successfully.
+INFO:__main__:Predictions table content:
+[(1, 1, 'Unknown Surfer'), (2, 1, 'Unknown Surfer'), (3, 1, 'Unknown Surfer'), (4, 1, 'Unknown Surfer')]
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+INFO:__main__:Upcoming event data DataFrame:
+   location surfer_name  wave_height wave_type  score
+0  Pipeline    John Doe          2.5      reef    8.0
+INFO:__main__:Upcoming event data with computed features:
+   location surfer_name  wave_height wave_type  score  average_score  event_count
+0  Pipeline    John Doe          2.5      reef    8.0            7.5            5
+INFO:__main__:Upcoming event data with encoded features:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Feature order: ['location', 'surfer_name', 'wave_height', 'wave_type', 'score', 'average_score', 'event_count']
+INFO:__main__:Upcoming event data in feature order:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Upcoming event data after normalization:
+[[ 0.17149859  0.32207831 -1.10782342  0.8660254  -0.05601853 -1.13356112
+   0.8660254 ]]
+INFO:__main__:Prediction array: [ True]
+INFO:__main__:Classes in surfer_name_encoder: ['Alice Johnson' 'Jane Smith' 'John Doe' 'Mark Lee']
+INFO:__main__:Prediction made successfully. Predicted winner: Alice Johnson
+INFO:__main__:Prediction stored in PostgreSQL successfully.
+INFO:__main__:Predictions table content:
+[(1, 1, 'Unknown Surfer'), (2, 1, 'Unknown Surfer'), (3, 1, 'Unknown Surfer'), (4, 1, 'Unknown Surfer'), (5, 1, 'Alice Johnson')]
+INFO:__main__:Database connection successful.
+INFO:__main__:Model, scaler, feature order, and encoders loaded successfully.
+INFO:__main__:Upcoming event data DataFrame:
+   location surfer_name  wave_height wave_type  score
+0  Pipeline    John Doe          2.5      reef    8.0
+INFO:__main__:Upcoming event data with computed features:
+   location surfer_name  wave_height wave_type  score  average_score  event_count
+0  Pipeline    John Doe          2.5      reef    8.0            7.5            5
+INFO:__main__:Upcoming event data with encoded features:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Feature order: ['location', 'surfer_name', 'wave_height', 'wave_type', 'score', 'average_score', 'event_count']
+INFO:__main__:Upcoming event data in feature order:
+  location surfer_name  wave_height wave_type  score  average_score  event_count
+0        1           2          2.5         1    8.0            7.5            5
+INFO:__main__:Upcoming event data after normalization:
+[[ 0.17149859  0.32207831 -1.10782342  0.8660254  -0.05601853 -1.13356112
+   0.8660254 ]]
+INFO:__main__:Prediction array: [ True]
+INFO:__main__:Classes in surfer_name_encoder: ['Alice Johnson' 'Jane Smith' 'John Doe' 'Mark Lee']
+INFO:__main__:Prediction made successfully. Predicted winner: Alice Johnson
+INFO:__main__:Prediction stored in PostgreSQL successfully.
+INFO:__main__:Predictions table content:
+[(6, 1, 'Alice Johnson')]
